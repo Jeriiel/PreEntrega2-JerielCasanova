@@ -1,0 +1,58 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*estilos de body*/
+body{
+    background-color: rgb(0, 0, 0);
+    
+}
+/*estilos de header*/
+
+header{
+    background-color: rgb(0, 0, 0) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+  }
+    header nav ul{
+        list-style: none;
+        display: flex;
+        gap: 60px;
+    }
+     header nav ul li{ 
+        background-color: rgb(255, 0, 255);
+        padding: 20px;
+        border-radius: 30px;
+     }
+     nav{
+        list-style: none;
+     }
+    
+ /*estilos de main*/
+    
+ main { 
+
+    display: flex;
+    background-color: rgb(0, 70, 255);
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 50px;
+    padding: 30px 35px;
+    background-image:url("../img/jpg/posiblefondo1.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(200, 20, 160);
+}
+    
+
+    /*estilos de footer*/ 
+ footer{
+   text-align: center ;
+ }
